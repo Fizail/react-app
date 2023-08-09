@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
+
 const RestaurantCard = (props) => {
     const {resData} = props;
     console.log(resData);
@@ -16,7 +17,6 @@ const RestaurantCard = (props) => {
             <h4>{avgRating + " Stars"}</h4>
             <h4> {area}</h4>
             <h4>{areaName}</h4>
-
         </div>
     )
 }

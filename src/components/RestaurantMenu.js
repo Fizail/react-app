@@ -4,8 +4,10 @@ import { useParams } from "react-router";
 import { MENU_API } from "../utils/constants";
 import RestaurantCategory from "./RestaurantCategory";
 
+
 const RestaurantMenu = () => {
     const {resId} = useParams();
+    
     const [resInfo , setResInfo] = useState(null);
     const [showIndex , setShowIndex] = useState();
     
